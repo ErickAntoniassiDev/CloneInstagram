@@ -1,0 +1,19 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+/* sidebar */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-right: solid 1px rgb(50, 50, 50);
+}
