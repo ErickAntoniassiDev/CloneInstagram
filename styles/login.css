@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     width: 100vw;
     height: 100vh;
     border: solid 1px rgb(50, 50, 50);
@@ -74,7 +75,6 @@ body {
     cursor: pointer;
     border-radius: 10px;
     height: auto;
-    /* ou remova essa linha */
     text-align: center;
     color: var(--text-color-primary);
     font-size: 14px;
@@ -176,14 +176,14 @@ body {
 }
 
 #appstore-img {
-    height: 45px;
-    width: 140px;
+    height: 40px;
+    width: 130px;
     margin-right: 10px;
     cursor: pointer;
 }
 
 #googleplay-img {
-    height: 45px;
-    width: 120px;
+    height: 40px;
+    width: 110px;
     cursor: pointer;
 }
