@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Página de Testes
+    </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .testediv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        span::after {
+            content: ' ';
+            color: #0095f6;
+            animation: 5s typing infinite;
+        }
+
+        @keyframes typing {
+
+            0%,
+            25%,
+            50% {
+                content: ' web developer';
+            }
+
+            75%,
+            100% {
+                content: ' designer';
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="testediv">
+        <h1 class="title">
+            I am a
+            <span></span>
+        </h1>
+    </div>
+</body>
+
+</html>
